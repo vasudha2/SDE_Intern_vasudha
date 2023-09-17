@@ -12,7 +12,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final MovieService _movieService = MovieService();
   final List<Movie> _movies = [];
-  String _sortBy = 'popularity'; // Default sort by popularity
+  String _sortBy = 'popularity'; 
   int _page = 1;
 
   @override
