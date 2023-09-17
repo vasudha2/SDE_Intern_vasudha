@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movie_search/models/movie.dart';  // Import the Movie class from the correct location
+import 'package:movie_search/models/movie.dart';
 
 class CustomButton extends StatelessWidget {
   final String text;
