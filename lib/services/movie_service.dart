@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:movie_search/models/movie.dart';
 
 class MovieService {
-  final String baseUrl = 'http://localhost:3001/api/movies'; // Update with your backend URL
+  final String baseUrl = 'http://localhost:3001/api/movies'; 
   int _page = 1;
 
   Future<List<Movie>> fetchMovies(int limit, String sortBy) async {
